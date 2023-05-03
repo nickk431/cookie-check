@@ -13,5 +13,6 @@ This is a simple script that checks if your Roblox cookie is valid or not.
 
 ### Usage
 
-1. Put your UPC formatted cookies in `cookies.txt`.
-2. Run the executable binary or build yourself using `go build`
+1. Create a file named `cookies.txt` and put your cookies in there (UPC)
+2. Create a file named `output.txt`, its where the working cookies will go
+3. Run the executable binary or build yourself using `go build`
