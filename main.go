@@ -77,7 +77,6 @@ func checkCookie(client *http.Client, cookie string, username string, password s
 }
 
 func main() {
-	// Set the timeout for the http client
 	client := &http.Client{Transport: &http.Transport{
 		Dial: (&net.Dialer{
 			Timeout: 5 * time.Second,
